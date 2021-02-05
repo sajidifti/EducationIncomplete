@@ -1,0 +1,144 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+/* header start*/
+
+.logo{
+	width: 150px;
+}
+
+.menu ul li a {
+   padding: 3px 13px !important;
+ }
+
+ .menu ul li a:hover {
+    background-color: transparent;
+    color:#f05c5c !important;
+}
+.d_user_ul {
+    top: 103%;
+    left: 1px;
+}
+.d_search_ul {
+    top: 106%;
+    left: -2px;
+    min-width: 291px;
+}
+/* header end*/
+/* banner start*/
+.b_content h1 {
+    margin-top: 82px;
+    margin-bottom: 33px;
+    font-size: 33px;
+}
+.scroll p {
+ font-size: 16px;
+ }
+.scroll i {
+    font-size: 26px;
+}
+/* banner end*/
+}
+
+    
+  
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/* header start*/
+.menu ul li a {
+   padding: 3px 13px !important;
+ }
+
+ .menu ul li a:hover {
+    background-color: transparent;
+    color:#f05c5c !important;
+}
+.d_user_ul {
+    top: 103%;
+    left: 1px;
+}
+.d_search_ul {
+    top: 102%;
+    left: -2px;
+    min-width: 350px;
+}
+/* header end*/
+/* banner start*/
+.b_content h1 {
+    margin-top: 130px;
+    margin-bottom: 51px;
+    font-size: 38px;
+}
+.scroll i {
+    font-size: 26px;
+}
+/* banner end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/* header start*/
+.menu ul li a {
+   padding: 3px 13px !important;
+ }
+
+ .menu ul li a:hover {
+    background-color: transparent;
+    color:#f05c5c !important;
+}
+.d_user_ul {
+    top: 103%;
+    left: 1px;
+}
+.d_search_ul {
+    top: 102%;
+    left: -2px;
+    min-width: 350px;
+}
+/* header end*/
+/* banner start*/
+.b_content h1 {
+    margin-top: 166px;
+    margin-bottom: 119px;
+}
+/* banner end*/
+}   
+   
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+/* banner start*/
+.b_content h1 {
+    margin-top: 166px;
+    margin-bottom: 178px;
+}
+/* banner end*/
+
+}
+
+/*Extra Large devices (Extra Large  desktops,1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+/* banner start*/
+.b_content h1 {
+    margin-top: 231px;
+    margin-bottom: 273px;
+}
+/* banner end*/
+}
+
+
+/* Extra extra large devices (Extra extra large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+/* banner start*/
+.b_content h1 {
+    margin-top: 318px;
+    margin-bottom: 320px;
+}
+/* banner end*/
+
+
+}
